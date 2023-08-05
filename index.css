@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.calculator{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: aqua; */
+    background: linear-gradient( rgb(41, 40, 40),black);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+   
+}
+.container{
+    background-color: #1c1c1c;
+    /* background: linear-gradient(#1c1c1c,rgb(16 16 16)); */
+    border-radius: 25px;
+    box-shadow:  -8px -8px 30px rgb(63, 63, 63),25px 25px 15px black;
+}
+.boxes{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px;
+ 
+}
+
+.equalsto{
+    width: 140px !important;
+}
+
+
+
+
+
+/* ==========inherit CSS=========== */
+
+
+
+
+.btn{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    font-size: 25px;
+    border: none;
+    border-radius: 20px;
+    transition: all ease 0.2s;
+    background-color:#111111;
+    box-shadow: -8px -8px 10px rgb(82, 82, 82),8px 8px 10px black;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+
+
+.btn:hover{
+    cursor: pointer;
+}
+
+
+
+.btn:active{
+    background-color: rgb(110, 110, 110);
+    scale: 0.9;
+}
+
+
+.input{
+    all: unset;
+    width: 310px;
+    height: 50px;
+    font-size: 40px;
+    background-color: #1c1c1c ;
+    /* margin: 15px 15px; */
+    margin: 10px 10px;
+    padding: 10px;
+    caret-color: cyan;
+    color: cyan;
+
+}
+
+
+.cyan{
+    color:cyan !important;
+}
